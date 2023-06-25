@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body {
+    background-color: #111215;
+    color: white;
+
+}
+
+
+
+.about p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: #A1A1AA;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #FFB800;
+
+}
+
+
+#resume {
+    background-color: #FFB800;
+    color:white;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.social-media-icons,
+i {
+    font-size: 25px;
+    color: white;
+}
+
+.dev-icons,
+i {
+    font-size: 60px;
+}
+
+.project-card .card-title {
+    text-align: left;
+    text-shadow: 0 5px 10px rgba(0, 0, .2);
+    font-size: 25px;
+
+}
+
+.project-card {
+    background-color: #d69b04;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 7px;
+    display: block;
+    top: 0px;
+    position: relative;
+    border-radius: 4px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    
+}
+.card-body i{
+    font-size: 15px;
+    
+}
+
+
+.project-card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.5);
+    top: -4px;
+    color: white;
+    border: 1px solid #cccccc;
+    background-color: #FFB800;
+}
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: black;
+    height: 32px;
+    width: 42px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+
+
+
+.corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: black;
+    border-radius: 0 4px 0 32px;
+}
+
+.arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    text-align: center;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
